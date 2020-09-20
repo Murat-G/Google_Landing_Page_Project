@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  margin-bottom: 220px;
+}
+
+.header-left {
+  float: left;
+  margin-top: 10px;
+}
+.to2:hover {
+  text-decoration: underline;
+}
+
+.header-right {
+  float: right;
+  margin-top: 10px;
+}
+
+nav li {
+  display: inline;
+  margin: 5px;
+  list-style-type: none;
+}
+
+#signin {
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border: none;
+  margin-right: 15px;
+}
+#signin:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+#signin:active {
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  vertical-align: middle;
+  font-size: 12;
+}
+#appicon {
+  vertical-align: middle;
+  opacity: 0.5;
+}
+#appicon:hover {
+  opacity: 1;
+}
+section {
+  display: block;
+  position: relative;
+  height: 300px;
+}
+#textgoogle {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+}
+.mid {
+  border: 1px solid rgb(207, 199, 199);
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 40px;
+  width: 500px;
+}
+
+.mid:hover {
+  box-shadow: 3px 3px 5px lightgray;
+}
+
+#searching {
+  display: block;
+  width: 400px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+}
+.buttons {
+  text-align: center;
+}
+#lookfor {
+  width: 120px;
+  height: 36px;
+  border-radius: 5px;
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+#Lucky {
+  width: 120px;
+  height: 36px;
+  border-radius: 5px;
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+#lookfor:hover,
+#Lucky:hover {
+  color: black;
+  border: 1px solid lightgray;
+  box-shadow: 0.7px 0.7px 0.7px lightgray;
+  cursor: pointer;
+}
+#p1 {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+.buttons p a {
+  color: #1967d2;
+  text-decoration: none;
+  font-size: 11.5px;
+}
+#iconsrc {
+  width: 30px;
+  position: relative;
+  bottom: 28px;
+  left: 10px;
+}
+
+#micro {
+  width: 15px;
+  position: relative;
+  left: 430px;
+  bottom: 32px;
+}
+
+#micro:hover {
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  height: 90px;
+  background-color: #f2f2f2;
+  border: none;
+}
+footer p {
+  display: inline-block;
+  padding: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.country {
+  border-bottom: 1px solid rgb(207, 199, 199);
+}
+.country-left {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+}
+.country-right {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+footer a {
+  text-decoration: none;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+footer a:hover {
+  text-decoration: underline;
+}
